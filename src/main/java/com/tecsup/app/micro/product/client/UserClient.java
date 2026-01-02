@@ -38,8 +38,6 @@ public class UserClient {
                 .id(createdBy)
                 .name("Unknown User")
                 .email("Unknown Email")
-                .phone("Unknown Phone")
-                .address("Unknown Address")
                 .build();
     }
 }

@@ -30,8 +30,13 @@ public class ProductEntity {
     @Column(nullable = false)
     private Integer stock;
 
+    @Column(name = "image_url")
+    private String imageUrl;
+
     @Column(length = 50)
     private String category;
+
+    private String status;
 
     @Column(name = "created_by")
     private Long createdBy;

@@ -15,13 +15,4 @@ public class AppConfig {
         return new RestTemplate();
     }
 
-
-    /*
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder
-                .connectTimeout(Duration.ofSeconds(5))
-                .build();
-    }*/
-
 }

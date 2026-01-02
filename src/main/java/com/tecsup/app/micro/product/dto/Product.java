@@ -18,9 +18,9 @@ public class Product {
     private String description;
     private BigDecimal price;
     private Integer stock;
+    private String imageUrl;
     private String category;
-    //private Long createdBy;
-    //
+    private String status;
     private User createdByUser;
 
 }
