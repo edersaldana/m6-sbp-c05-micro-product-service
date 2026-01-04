@@ -22,14 +22,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,circuitbreakers. circuitbreakerevents
-  health:
-    circuitbreakers:
-      enabled: true
-
-# ============================================
-# USER SERVICE URL
-# ============================================
-user:
-  service:
-    url: http://localhost:8081
+        include: health,circuitbreakers,circuitbreakerevents

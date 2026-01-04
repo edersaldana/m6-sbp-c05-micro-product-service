@@ -1,6 +1,3 @@
-# ============================================
-# USER SERVICE URL  - DEV PROFILE
-# ============================================
 spring:
   datasource:
     url: jdbc:h2:mem:productdb
@@ -29,3 +26,8 @@ spring:
     locations: classpath:db/migration/local
     baseline-on-migrate: true
     validate-on-migrate: true
+
+user:
+  service:
+    url: http://localhost:8081
+
