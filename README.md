@@ -21,4 +21,4 @@ Este servicio gestiona todo el catálogo de productos de la tienda, permitiendo 
 ## Instalación
 1. Crear base de datos `product_db`.
 2. Configuraciones en `src/main/resources/application.yml`, `src/main/resources/application-dev.yml`, `src/main/resources/application-local.yml`.
-3. Ejecutar: `mvn clean install` y luego `mvn spring-boot:run`.
+3. Ejecutar: `mvn spring-boot:run`.
